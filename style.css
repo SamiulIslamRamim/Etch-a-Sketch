@@ -5,22 +5,38 @@
 }
 
 #Container{
-    /* background-color: bisque; */
-    height: 560px;
-    width: 560px;
+    height: 562px;
+    width: 562px;
     display: flex;
     flex-wrap: wrap;
+    border: black solid 1px;
+
 }
 
 .sqr{
-    /* background-color: blueviolet; */
-    border: black solid 1px;
-    /* border-collapse:collapse; */
+    border:white solid 1px;
 }
 
-.opa-20 { opacity: 0.2; }
-.opa-40 { opacity: 0.4; }
-.opa-60 { opacity: 0.6; }
-.opa-80 { opacity: 0.8; }
-.opa-100 { opacity: 1.0; }
+.opa20 { opacity: 0.2; }
+.opa40 { opacity: 0.4; }
+.opa60 { opacity: 0.6; }
+.opa80 { opacity: 0.8; }
+.opa100 { opacity: 1.0; }
 
+.gbx{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+button{
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+    border: black solid 1px;
+    border-radius: 32px;
+    cursor: pointer;
+}
