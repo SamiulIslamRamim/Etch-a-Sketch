@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <script src="./java.js" defer></script>
   </head>
   <body>
-    <div class="gbx">
-
-      <button onclick="clearInput()">Clear Canvas</button>
-      
-      <div id="Container"></div>
+    <div class="main">
+      <div class="left">
+        <div class="etch">
+          <h1>Etch-A-Sketch!</h1>
+        <h3>
+          This canvas draws in random colors with increasing opacity! <br />Resize or clear with buttons above the canvas. <br />If you are on mobile, tap to draw!
+        </h3>
+        </div>
+        <h3>The Odin Project Exercise | 2026</h3>
+      </div>
+      <div class="gbx">
+        <button onclick="clearInput()">Clear Canvas</button>
+        <div id="Container"></div>
+      </div>
     </div>
   </body>
 </html>

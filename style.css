@@ -4,12 +4,45 @@
     box-sizing: border-box;
 }
 
+.main{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding-right: 100PX;
+    gap: 300px;
+}
+
+.left{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 300px;
+    height: 100vh;
+    background-color:#80118a;
+    color: white;
+}
+.etch{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.gbx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #Container{
     height: 562px;
     width: 562px;
     display: flex;
     flex-wrap: wrap;
-    border: black solid 1px;
+    border: #80118a solid 1px;
 
 }
 
@@ -33,10 +66,13 @@
 
 }
 button{
-    width: 100px;
+    width: 150px;
+    padding: 20px;
     height: auto;
     font-size: 20px;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     border-radius: 32px;
     cursor: pointer;
+    background-color: #80118a;
+    color: white;
 }
